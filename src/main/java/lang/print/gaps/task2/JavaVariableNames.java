@@ -4,7 +4,7 @@ public class JavaVariableNames {
     public static void main(String[] args) {
         int tomorrow = 0;
         int money = 10;
-        int oneHundred = 100;
+        int hundred = 100;
         int back = 1000;
         int underscore = 10000;
         int sharp = 100000;
