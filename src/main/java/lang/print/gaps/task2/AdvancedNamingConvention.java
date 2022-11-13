@@ -6,11 +6,29 @@ public class AdvancedNamingConvention {
     private int age;
     private int phoneNumber;
 
-    void CallToFriend() {
-        //some code
+    void callToFriend() {
+        System.out.println("Age: " + getAge());
+        System.out.println("Num: " + getPhoneNumber());
     }
 
     void callByNumber(int number) {
-        //some code
+        setAge(ADULT_AGE);
+        setPhoneNumber(number);
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }

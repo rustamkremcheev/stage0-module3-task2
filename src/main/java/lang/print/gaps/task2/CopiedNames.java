@@ -10,5 +10,14 @@ public class CopiedNames {
         int variablesOne = 5000;
         int variablesTwo = 7000;
         int valueThree = 90000;
+
+        System.out.println(variableOne);
+        System.out.println(variableTwo);
+        System.out.println(valueOne);
+        System.out.println(variableThree);
+        System.out.println(valueTwo);
+        System.out.println(variablesOne);
+        System.out.println(variablesTwo);
+        System.out.println(valueThree);
     }
 }
