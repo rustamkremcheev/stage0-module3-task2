@@ -20,9 +20,5 @@ public class JavaVariableNames {
         System.out.println(star);
         System.out.println(badExampleOfVarName);
 
-        AdvancedNamingConvention namingConvention = new AdvancedNamingConvention();
-        namingConvention.callByNumber(sharp);
-        namingConvention.callToFriend();
-
     }
 }
